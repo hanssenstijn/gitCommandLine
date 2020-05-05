@@ -1,0 +1,22 @@
+{
+  "name": "gitcommandline",
+  "version": "1.0.0",
+  "description": "create a new repo locally (new directory) ; git init\r checkout a repo (use online repo, first creat on github.com) ; git clone \r workflow local repo; consists of three trees maintained by git.\r 1. Working directory ; holds the actual files\r 2. Index/stage ; git add to include the files\r 3. Head ; git commit",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanssenstijn/gitCommandLine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanssenstijn/gitCommandLine/issues"
+  },
+  "homepage": "https://github.com/hanssenstijn/gitCommandLine#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
